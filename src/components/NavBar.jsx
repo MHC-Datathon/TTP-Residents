@@ -8,6 +8,12 @@ const NavBar = () => {
       <div className="nav-brand">
         <Link to="/">Capstone I</Link>
       </div>
+
+      <div className="nav-links">
+        <div className="">
+          <Link to="TrainDesert">TrainDesert</Link>
+        </div>
+      </div>
     </nav>
   );
 };

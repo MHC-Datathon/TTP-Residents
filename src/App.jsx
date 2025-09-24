@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import { API_URL } from "./shared";
+import TrainDesert from "./components/TrainDesert";
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -51,6 +52,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/TrainDesert" element={<TrainDesert />} />
         </Routes>
       </div>
     </div>
