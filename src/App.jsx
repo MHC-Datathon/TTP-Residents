@@ -52,7 +52,7 @@ const App = () => {
       <NavBar user={user} onLogout={handleLogout} />
       <div className="app">
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/TTP-Residents/" element={<Home />} />
           <Route path="/TrainDesert" element={<TrainDesert />} />
           <Route path="/FultonStreet" element={<FultonStreet />}/>
           <Route path="/riderShip" element={<RiderShip />} />
