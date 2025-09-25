@@ -11,7 +11,7 @@ const NavBar = () => {
 
       <div className="nav-links">
         <div className="">
-          <Link to="TrainDesert">TrainDesert</Link>
+          <Link to="/TrainDesert">TrainDesert</Link>
         </div>
       </div>
     </nav>
