@@ -12,6 +12,7 @@ const NavBar = () => {
       <div className="nav-links">
         <div className="">
           <Link to="/TrainDesert">TrainDesert</Link>
+          <Link to ="/FultonStreet">Fulton Street</Link>
         </div>
       </div>
     </nav>

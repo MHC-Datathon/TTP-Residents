@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import { API_URL } from "./shared";
 import TrainDesert from "./components/TrainDesert";
+import FultonStreet from "./components/FultonStreet";
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -53,6 +54,7 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/TrainDesert" element={<TrainDesert />} />
+          <Route path="/FultonStreet" element={<FultonStreet />}/>
         </Routes>
       </div>
     </div>
