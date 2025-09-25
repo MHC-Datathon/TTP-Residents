@@ -26,6 +26,10 @@ const Home = () => {
           <li>MTA Bus Hourly Ridership: 2020-2024</li>
           <li>MTA Subway Origin-Destination Ridership Estimate: 2024</li>
           <li>MTA Bus Customer Journey-Focused Metrics: Beginning 2025</li>
+          <li>
+            MTA Bus Automated Camera Enforcement Violations: Beginning October
+            2019
+          </li>
         </ul>
         <p>
           Overall data sourced from{" "}
