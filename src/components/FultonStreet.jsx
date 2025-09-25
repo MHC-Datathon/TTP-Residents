@@ -1,5 +1,6 @@
 import React from "react";
 import "./FultonStreet.css";
+import FS from "../../Fulton.webp";
 
 const FultonStreet = () => {
   return (
@@ -9,7 +10,7 @@ const FultonStreet = () => {
       </h1>
 
       <div className="fulton-map">
-        <img src="Fulton.webp" alt="FultonMap" className="fulton-image" />
+        <img src={FS} alt="FultonMap" className="fulton-image" />
       </div>
 
       <div className="fulton-content">

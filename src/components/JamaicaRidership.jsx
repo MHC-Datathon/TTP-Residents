@@ -1,5 +1,8 @@
 import React from "react";
 import "./JamaicaRidership.css";
+import JR from "../../JamaicaMap.webp";
+import G1 from "../../GraphJ1.webp";
+import G2 from "../../GraphJ2.webp";
 
 const JamaicaRidership = () => {
     return (
@@ -21,7 +24,7 @@ const JamaicaRidership = () => {
                     impacts bus service quality and community needs in that particular region. By observing these changes
                     on a small scale, we can understand them easily and apply the same strategy on a larger scale.
                 </p>
-                <img src="JamaicaMap.webp" alt="Jamaica Map" />
+                <img src={JR} alt="Jamaica Map" />
             </div>
 
             <div>
@@ -33,8 +36,8 @@ const JamaicaRidership = () => {
                     and experience for the riders.
                 </p>
                 <div className="image-row">
-                    <img src="GraphJ1.webp" alt="GraphJ1" />
-                    <img src="GraphJ2.webp" alt="GraphJ2" />
+                    <img src={G1} alt="GraphJ1" />
+                    <img src={G2} alt="GraphJ2" />
                 </div>
 
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import NYC from "../../NYC.webp";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
 
       {/* Main Image */}
       <div className="main-image">
-        <img src="NYC.webp" alt="NYC Map" />
+        <img src={NYC} alt="NYC Map" />
       </div>
 
       {/* Data Sources */}

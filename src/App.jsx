@@ -5,7 +5,6 @@ import "./AppStyles.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import NotFound from "./components/NotFound";
 import { API_URL } from "./shared";
 import TrainDesert from "./components/TrainDesert";
 import FultonStreet from "./components/FultonStreet";
@@ -54,7 +53,6 @@ const App = () => {
       <div className="app">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
           <Route path="/TrainDesert" element={<TrainDesert />} />
           <Route path="/FultonStreet" element={<FultonStreet />}/>
           <Route path="/riderShip" element={<RiderShip />} />

@@ -1,4 +1,5 @@
 import React from "react";
+import RS from "../../graph2.webp";
 
 const RiderShip = () => {
   const styles = {
@@ -73,7 +74,7 @@ const RiderShip = () => {
 
       <div style={styles.imgWrapper}>
         <img
-          src="graph2.webp"
+          src={RS}
           alt="Bus lane violations in Lenox Hill to Fox Hills corridor"
           style={styles.img}
         />

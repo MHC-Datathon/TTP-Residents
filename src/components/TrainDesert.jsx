@@ -1,5 +1,6 @@
 import React from "react";
 import "./TrainDesert.css";
+import TD from "../../Map.webp";
 
 const TrainDesert = () => {
   return (
@@ -22,7 +23,7 @@ const TrainDesert = () => {
           as the M15, so it's a lower priority for investment" → the route gets
           no cameras or lane improvements → the bus remains slow.
         </p>
-        <img src="Map.webp" alt="Transit map" />
+        <img src={TD} alt="Transit map" />
       </div>
 
       <div>
