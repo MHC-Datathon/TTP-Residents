@@ -6,7 +6,8 @@ const Home = () => {
     <div className="home-container">
       {/* Main Question */}
       <h1 className="main-question">
-        How does the distribution of bus lane enforcement...
+        How does the distribution of bus lane enforcement (ACE + ABLE) align
+        with bus service quality and community needs across NYC?
       </h1>
 
       {/* Main Image */}

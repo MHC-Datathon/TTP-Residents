@@ -18,13 +18,13 @@ const NavBar = () => {
           Fulton Street
         </Link>
         <Link to="/TrainDesert" className="nav-link">
-          TrainDesert
+          Train Desert
         </Link>
         <Link to="/riderShip" className="nav-link">
-          RiderShip
+          Ridership
         </Link>
         <Link to='/jamaicaRidership' className='nav-link'>
-          JamaicaRidership
+          Jamaica
         </Link>
       </div>
     </nav>
