@@ -1,14 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./TrainDesert.css";
 
 const TrainDesert = () => {
   return (
-    <>
-      <div>
-        <header>
-          <h1> How Low Ridership Justifies Slow Buses in Transit Desertst? </h1>
-        </header>
-      </div>
+    <div className="train-desert">
+      <header>
+        <h1>How Low Ridership Justifies Slow Buses in Transit Deserts?</h1>
+      </header>
 
       <div>
         <h2>Manhattan Gets the Spotlight</h2>
@@ -24,7 +22,7 @@ const TrainDesert = () => {
           as the M15, so it's a lower priority for investment" → the route gets
           no cameras or lane improvements → the bus remains slow.
         </p>
-        <img src="Map.webp"></img>
+        <img src="Map.webp" alt="Transit map" />
       </div>
 
       <div>
@@ -62,12 +60,11 @@ const TrainDesert = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            The New York Times, October 11, 2019, "Who's Afraid of a Transit
-            Desert?"
+            The New York Times, October 11, 2019
           </a>
         </p>
       </div>
-    </>
+    </div>
   );
 };
 
