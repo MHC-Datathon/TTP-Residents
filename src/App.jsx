@@ -10,6 +10,7 @@ import { API_URL } from "./shared";
 import TrainDesert from "./components/TrainDesert";
 import FultonStreet from "./components/FultonStreet";
 import RiderShip from "./components/RiderShip";
+import JamaicaRidership from "./components/JamaicaRidership";
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="/TrainDesert" element={<TrainDesert />} />
           <Route path="/FultonStreet" element={<FultonStreet />}/>
           <Route path="/riderShip" element={<RiderShip />} />
+          <Route path="/JamaicaRidership" element={<JamaicaRidership />} />
         </Routes>
       </div>
     </div>

@@ -23,6 +23,9 @@ const NavBar = () => {
         <Link to="/riderShip" className="nav-link">
           RiderShip
         </Link>
+        <Link to='/jamaicaRidership' className='nav-link'>
+          JamaicaRidership
+        </Link>
       </div>
     </nav>
   );

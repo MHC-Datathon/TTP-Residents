@@ -1,0 +1,68 @@
+/* JamaicaRidership.css */
+.jamaica-ridership {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.jamaica-ridership header h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.jamaica-ridership h2 {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.jamaica-ridership p {
+  margin-bottom: 15px;
+}
+
+.jamaica-ridership ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.jamaica-ridership li {
+  margin-bottom: 10px;
+}
+
+.jamaica-ridership img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jamaica-ridership a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.jamaica-ridership a:hover {
+  text-decoration: underline;
+}
+
+/* Side-by-side images */
+.jamaica-ridership .image-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* optional gap between images */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.jamaica-ridership .image-row img {
+  flex: 1; /* equal width */
+  max-width: calc(50% - 10px); /* fits side by side with gap */
+  margin: 0; /* remove auto margin */
+}
