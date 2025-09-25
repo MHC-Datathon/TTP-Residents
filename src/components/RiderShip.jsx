@@ -73,7 +73,7 @@ const RiderShip = () => {
 
       <div style={styles.imgWrapper}>
         <img
-          src="graph.webp"
+          src="graph2.webp"
           alt="Bus lane violations in Lenox Hill to Fox Hills corridor"
           style={styles.img}
         />
