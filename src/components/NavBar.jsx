@@ -5,15 +5,21 @@ import "./NavBarStyles.css";
 const NavBar = () => {
   return (
     <nav className="navbar">
+      {/* Brand/Home section */}
       <div className="nav-brand">
-        <Link to="/"> Home </Link>
+        <Link to="/" className="nav-link brand-link">
+          Home
+        </Link>
       </div>
 
+      {/* Links section */}
       <div className="nav-links">
-        <div className="">
-          <Link to="/TrainDesert">TrainDesert</Link>
-          <Link to="/riderShip">RiderShip</Link>
-        </div>
+        <Link to="/TrainDesert" className="nav-link">
+          TrainDesert
+        </Link>
+        <Link to="/riderShip" className="nav-link">
+          RiderShip
+        </Link>
       </div>
     </nav>
   );
