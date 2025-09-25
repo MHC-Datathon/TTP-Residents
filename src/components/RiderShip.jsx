@@ -8,18 +8,16 @@ const RiderShip = () => {
       maxWidth: "900px",
       margin: "0 auto",
       lineHeight: 1.6,
-      color: "#222",
     },
     header: {
       marginBottom: "18px",
       paddingBottom: "8px",
-      // borderBottom removed
     },
     title: {
       fontSize: "26px",
       margin: 0,
       fontWeight: 700,
-      color: "#0b3d91",
+      color: "#34495e",
     },
     section: {
       marginTop: "18px",
@@ -29,6 +27,7 @@ const RiderShip = () => {
       fontSize: "20px",
       margin: "8px 0",
       fontWeight: 600,
+      color: "#34495e",
     },
     paragraph: {
       margin: "8px 0",
